@@ -1,0 +1,31 @@
+git Basic 
+**********Git Configuration commands*********************
+1]git config --global user.email ""             //for email id
+2]git config --global user.name ""
+
+
+
+1]ls:it showing list of directories.
+2]pwd:(present working directory)it showing directory which is you are working.
+3]clear:it clear the screeen.
+4]git --version:it showing the version of the git.
+5]cd FolderName:going into folder directory./i have created one foldername MyGitproject inside that i have created two text file.
+
+
+1*How to create A Local repository.
+-->we have created local repository in workspace location.
+6]git init:for initializing local git repository.adhi ek empty repository aste.nanter intialization karun empty 
+git repository
+7]git status:This command is showing untracked files.the files which still present in workspace but not add into the local repository.
+
+2*How to add the files into the staging area?
+->8] git add a.txt :adding one Specific file into the git repository.
+->9] git add .*    :adding all the files into the git repository.
+now this time file colour is showing green means files are tracked.
+
+3*How to move the file into the local repository.
+-->git commit -m "This is my first commit"//after commiting all the files which is added into the local repository.
+(nothing to commit working directory is clean)//means we are creating 1 st working directory .
+
+
+
