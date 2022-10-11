@@ -24,8 +24,65 @@ git repository
 now this time file colour is showing green means files are tracked.
 
 3*How to move the file into the local repository.
--->git commit -m "This is my first commit"//after commiting all the files which is added into the local repository.
-(nothing to commit working directory is clean)//means we are creating 1 st working directory .
+-->10]git commit -m "This is my first commit"     //after commiting all the files which is added into the local repository.
+(nothing to commit working directory is clean)//means we are creating 1 st working directory 
+-->11] git log   //this command is showing all the details of git.your details and time.
+
+//file changes or you write something in file.
+git add .      //This command save all the changes local repository.
+commit -m "file name"       //it is mandatory steps
+git commit -a -m "both files are modifeied"     //this comment is for all.
+
+--------------------------------------------------------------------------------------------------------------
+2.*
+
+12]git diff  :this command is comparing difference between files in version control system.
+13]vim index.txt   :for opening editor and creating the file we use this command.
+
+q1 Req: to see the difference between working directory and staging area.
+-->git diff index.txt
+
+
+--------------------------------------------------------------------------------------------------------------
+Git Commands:
+q3. How to remove or delete the file from git repository.
+
+Req:1 remove the file from working directory and staging area.
+-->git rm file1.txt.txt   
+   ls
+
+Req:remove all the files from working directory and staging area.
+-->git rm -r
+   ls
+
+Req: to find the files in the staging area.
+->git ls-files
+
+Req: remove files from the staging area.
+-->git rm --catched file2.txt
+
+Req:remove the files from only working directory.
+-->rm file3.txt
+
+------------------------------------------------------------------------------------------------
+git checkout command:
+ 
+-->is only for working directory.
+  to discard unstaged changes(The changes which are already added to staging area)
+>git init
+>cat file1.txt : it showing the content inside the file.
+>git checkout -- file1.txt.txt
+
+--------------------------------------------------------------------------------------------------------------
+
+1.i was gone in github where i have created one Repositoriy.and repository name is DemoRepo1
+2.git init  //initializing git repository.
+3.ls -alt
+
+
+
+
+
 
 
 
